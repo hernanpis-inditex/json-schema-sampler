@@ -5,8 +5,8 @@ export var _samplers = {};
 
 const defaults = {
   skipReadOnly: false,
-  maxSampleDepth: 15,
-  ticks: 1000,
+  maxSampleDepth: 150,
+  ticks: 10000,
 };
 
 export function sample(schema, options, doc = schema) {
